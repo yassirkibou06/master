@@ -159,7 +159,7 @@ const Slider = () => {
                 </AnimatePresence>
                 <span className="text-gray-400 text-sm">{`/${formatNumberWithZero(slides.length)}`}</span>
             </div>
-            {/**buttons of swiper ===> */}
+            {/**buttons of swiper ===> ///*/}
             <button className="prev-swiper">
                 <IoIosArrowBack className="text-gray-300" size={20} />
             </button>
