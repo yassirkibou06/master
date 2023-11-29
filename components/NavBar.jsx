@@ -8,7 +8,7 @@ const NavBar = () => {
                 <Link href="/" className="font-light tracking-wide text-xl text-gray-600"><span className="font-bold text-black">Loud</span>Beats</Link>
             </div>
             <div>
-                <ul className="flex space-x-10">
+                <ul className="hidden lg:flex space-x-10">
                     <li>
                         <Link className="py-1 text-link relative group" href="/headPhones" >
                                 HEADPHONES

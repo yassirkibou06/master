@@ -65,11 +65,11 @@ const Slider = () => {
     return (
         <>
             {/**slider and content ===> */}
-            <div className="flex relative">
+            <div className="flex flex-col text-center items-center lg:text-start lg:flex-row lg:items-start relative">
                 <AnimatePresence exitBeforeEnter={false} mode="wait">
                     <motion.div
                         key={activeIndex}
-                        className="w-1/3 mt-36"
+                        className="w-full lg:w-1/3 mt-36"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
@@ -145,7 +145,7 @@ const Slider = () => {
                 </div>
             </div>
             {/**counter ===> */}
-            <div className="absolute bottom-5 right-5 ">
+            <div className="absolute -bottom-52 lg:bottom-5 right-5 ">
                 <AnimatePresence exitBeforeEnter={false} mode="wait">
                     <motion.span
                         key={animationKey}
